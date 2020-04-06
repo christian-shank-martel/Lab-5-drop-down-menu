@@ -1,0 +1,105 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Lab 5 - text Editior
+</name>
+</assembly>
+<members>
+<member name="T:Lab_5___text_Editior.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Lab_5___text_Editior.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Lab_5___text_Editior.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:Lab_5___text_Editior.TextEditor.mnuExit_Click(System.Object,System.EventArgs)">
+ <summary>
+ Me Close Form
+ </summary>
+</member>
+<member name="M:Lab_5___text_Editior.TextEditor.mnuNewFile_Click(System.Object,System.EventArgs)">
+ <summary>
+ Blanks the textbox and filepath for new file creation
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Lab_5___text_Editior.TextEditor.mnuOpenFile_Click(System.Object,System.EventArgs)">
+ <summary>
+  open a text file and prints it to the textbox
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Lab_5___text_Editior.TextEditor.mnuSaveFile_Click(System.Object,System.EventArgs)">
+ <summary>
+ Saves file if it has a filepath
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Lab_5___text_Editior.TextEditor.mnuSaveAs_Click(System.Object,System.EventArgs)">
+ <summary>
+ Set the filepath and saves the file
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Lab_5___text_Editior.TextEditor.mnuAbout_Click(System.Object,System.EventArgs)">
+ <summary>
+ Prints a messageBox with the needed information
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Lab_5___text_Editior.TextEditor.mnuCopy_Click(System.Object,System.EventArgs)">
+ <summary>
+ Saves text to the clipboard
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Lab_5___text_Editior.TextEditor.mnuPaste_Click(System.Object,System.EventArgs)">
+ <summary>
+ Pastes the text stored in the clipboard
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Lab_5___text_Editior.TextEditor.mnuCut_Click(System.Object,System.EventArgs)">
+ <summary>
+ Cuts highlighted text from the textbox after saving it to the clipboard
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Lab_5___text_Editior.TextEditor.UpdateFormTitle">
+ <summary>
+ Updates the form title woth the file path of the current working file
+ </summary>
+</member>
+<member name="M:Lab_5___text_Editior.TextEditor.SaveTextFile(System.String)">
+ <summary>
+ Actully saves the file to the system
+ </summary>
+ <param name="path"></param>
+</member>
+<member name="M:Lab_5___text_Editior.TextEditor.Form1_Closing(System.Object,System.ComponentModel.CancelEventArgs)">
+ <summary>
+ Catches the user pressing the (X) button
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+</members>
+</doc>
